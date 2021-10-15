@@ -2,8 +2,6 @@
 
 A usefull collection of my vim utility functions.
 
----
-
 Remember to add the following autogroup somewhere in your Vim configs (preferably inside `~/.vim/plugin/`) in order to make Vim run `launch()` function every time it tries to open a directory.
 
 > FZF should be installed in oyur system for a optimal workflow.
