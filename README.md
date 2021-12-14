@@ -14,3 +14,8 @@ augroup shutuponopen
     autocmd BufEnter * call onopen#launch()
 augroup END
 ```
+
+```
+let $FZF_DEFAULT_COMMAND='rg --files --hidden -g "!.git" '
+let $FZF_DEFAULT_OPTS='--preview "bat --style=numbers --color=always --line-range :500 {}"'
+```
